@@ -12,10 +12,10 @@ Pod::Spec.new do |spec|
 
   spec.ios.framework   = 'Foundation'
 
-  spec.ios.deployment_target     = '13.0'
-  spec.osx.deployment_target     = '10.15'
-  spec.watchos.deployment_target = '6.0'
-  spec.tvos.deployment_target    = '13.0'
+  #spec.ios.deployment_target     = '13.0'
+  #spec.osx.deployment_target     = '10.15'
+  #spec.watchos.deployment_target = '6.0'
+  #spec.tvos.deployment_target    = '13.0'
 
   spec.dependency 'Tea',  '~> 1.0.0'
   spec.dependency 'TeaUtils',  '~> 1.0.5'
